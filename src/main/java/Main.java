@@ -30,9 +30,6 @@ public class Main {
             num = num / 3;
         }
 
-        if (num == 1) {
-            return true;
-        }
-        return false;
+        return num == 1;
     }
 }
