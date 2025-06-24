@@ -17,10 +17,6 @@ public class Main {
                 System.out.println(strArr[i].toLowerCase());
             }
         }
-        System.out.println(powerOf3(3));    // true
-        System.out.println(powerOf3(4));    // false
-        System.out.println(powerOf3(9));    // true
-        System.out.println(powerOf3(10));   // false
         System.out.println(powerOf3(12));   // false
         System.out.println(powerOf3(3 * 3 * 3 * 3 * 3));   // true
     }
